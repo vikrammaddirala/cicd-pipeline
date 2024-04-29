@@ -15,7 +15,7 @@
 
 export PROJECT="apigee-x-379708"
 export APIGEE_HOST="34.117.73.180.nip.io"
-export APIGEE_ENV="default-env"
+export APIGEE_ENV="default-dev"
 PROJECT_NUMBER="$(gcloud projects describe $PROJECT --format="value(projectNumber)")"
 export PROJECT_NUMBER
 export CLOUD_BUILD_SA="$PROJECT_NUMBER@cloudbuild.gserviceaccount.com"
